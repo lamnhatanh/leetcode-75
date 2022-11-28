@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.Arrays;
 
 public class BestTimeToBuyAndSellStock {
@@ -6,8 +8,8 @@ public class BestTimeToBuyAndSellStock {
 //        Output: 5
 //        Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
         System.out.println(maxProfit(new int[] {7,1,5,3,6,4}));
-        System.out.println(maxProfitOptimalSolution(new int[] {7,1,5,3,6,4}));
-        System.out.println(maxProfitSlidingWindowSolution(new int[] {7,1,5,3,6,4}));
+        System.out.println(maxProfitOptimalSolution(new int[] {7,3,5,3,6,4}));
+        System.out.println(maxProfitSlidingWindowSolution(new int[] {7,9,5,1,6,4}));
     }
 
     public static int maxProfit(int[] prices) {

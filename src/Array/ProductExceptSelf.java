@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,11 +10,10 @@ public class ProductExceptSelf {
 //        Output: [24,12,8,6]
         int[] nums = new int[] {1,2,3,4};
         System.out.println(Arrays.toString(productExceptSelf(nums)));
-        System.out.println(Arrays.toString(productExceptSelfOptimalSolution(nums)));
+        //System.out.println(Arrays.toString(productExceptSelfOptimalSolution(nums)));
     }
 
     public static int[] productExceptSelf(int[] nums) {
-        List<Integer> list = new ArrayList<>();
         int[] output = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
             int product = 1;
@@ -22,12 +23,9 @@ public class ProductExceptSelf {
                 }
                 product *= nums[j];
             }
-            list.add(product);
+            output[i] = product;
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            output[i] = list.get(i);
-        }
         return output;
     }
 
