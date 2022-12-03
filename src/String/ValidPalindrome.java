@@ -1,7 +1,14 @@
 package String;
 
 public class ValidPalindrome {
-    public boolean isPalindrome(String s) {
+
+    public static void main(String[] args) {
+        String s1 = "A man, a plan, a canal: Panama";
+        String s2 = "race a car";
+        System.out.println(isPalindrome(s1));
+        System.out.println(isPalindrome(s2));
+    }
+    public static boolean isPalindrome(String s) {
         s = s.toLowerCase();
         int left = 0, right = s.length() - 1;
 

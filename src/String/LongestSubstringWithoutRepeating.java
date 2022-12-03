@@ -4,7 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class LongestSubstringWithoutRepeating {
-    public int lengthOfLongestSubstring(String s) {
+    public static void main(String[] args) {
+        System.out.println(lengthOfLongestSubstring("abcbad"));
+    }
+    public static int lengthOfLongestSubstring(String s) {
 //         int longestSubstring = 0;
 //         Map<Character, Integer> hm = new HashMap<>();
 //         for (int i = 0; i < s.length(); i++) {

@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b38dfec-a3b5-4bab-96d5-aae4c684fc27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/LongestSubstringWithoutRepeating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/PalindromicSubstrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/LongestSubstringWithoutRepeating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/LongestSubstringWithoutRepeating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +47,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestRepeatingCharacterReplacement">
-    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.LongestRepeatingCharacterReplacement" />
+  <component name="RunManager" selected="Application.GroupAnagrams">
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.GroupAnagrams" />
       <module name="Leetcode_75Questions" />
       <extension name="coverage">
         <pattern>
@@ -57,22 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ProductExceptSelf" />
-      <module name="Leetcode_75Questions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ThreeSum" />
-      <module name="Leetcode_75Questions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.ValidAnagram" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.LongestPalindromicSubstring" />
       <module name="Leetcode_75Questions" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +74,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.ValidParentheses" />
+    <configuration name="LongestSubstringWithoutRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.LongestSubstringWithoutRepeating" />
+      <module name="Leetcode_75Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <module name="Leetcode_75Questions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.PalindromicSubstrings" />
       <module name="Leetcode_75Questions" />
       <extension name="coverage">
         <pattern>
@@ -99,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.ProductExceptSelf" />
+        <item itemvalue="Application.GroupAnagrams" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.PalindromicSubstrings" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeating" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +136,10 @@
       <workItem from="1669838969757" duration="54000" />
       <workItem from="1669843018838" duration="280000" />
       <workItem from="1669933962792" duration="1723000" />
+      <workItem from="1670004024724" duration="158000" />
+      <workItem from="1670004366374" duration="8362000" />
+      <workItem from="1670042038516" duration="5243000" />
+      <workItem from="1670088826807" duration="3054000" />
     </task>
     <servers />
   </component>
