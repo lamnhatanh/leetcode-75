@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b38dfec-a3b5-4bab-96d5-aae4c684fc27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/KthLargestElementinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MostFrequentEvenElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/LetterCombinationsofPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/SortCharactersByFrequency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +46,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MissingNumber">
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.GroupAnagrams" />
+  <component name="RunManager" selected="Application.LetterCombinationsOfPhoneNumber">
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.GenerateParentheses" />
       <module name="Leetcode_75Questions" />
       <extension name="coverage">
         <pattern>
@@ -55,28 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.LongestPalindromicSubstring" />
-      <module name="Leetcode_75Questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <module name="Leetcode_75Questions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MissingNumber" />
+    <configuration name="KthLargestElementinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.KthLargestElementinArray" />
       <module name="Leetcode_75Questions" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.PalindromicSubstrings" />
+    <configuration name="LetterCombinationsOfPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.LetterCombinationsOfPhoneNumber" />
       <module name="Leetcode_75Questions" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +86,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LetterCombinationsofPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.LetterCombinationsofPhoneNumber" />
+      <module name="Leetcode_75Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MostFrequentEvenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.MostFrequentEvenElement" />
+      <module name="Leetcode_75Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.PalindromicSubstrings" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
+        <item itemvalue="Application.LetterCombinationsOfPhoneNumber" />
+        <item itemvalue="Application.LetterCombinationsofPhoneNumber" />
+        <item itemvalue="Application.GenerateParentheses" />
+        <item itemvalue="Application.KthLargestElementinArray" />
+        <item itemvalue="Application.MostFrequentEvenElement" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +146,8 @@
       <workItem from="1670042038516" duration="5243000" />
       <workItem from="1670088826807" duration="3683000" />
       <workItem from="1670131372636" duration="193000" />
+      <workItem from="1670388939841" duration="25000" />
+      <workItem from="1670522759629" duration="7288000" />
     </task>
     <servers />
   </component>
